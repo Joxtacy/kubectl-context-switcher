@@ -1,0 +1,10 @@
+[package]
+name = "kubectl-context-switcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.38", features = ["derive"] }
+colored = "3.0.0"
+inquire = "0.7.5"
+strip-ansi-escapes = "0.2.1"
